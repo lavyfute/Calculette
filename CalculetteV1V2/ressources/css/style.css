@@ -1,0 +1,160 @@
+#bodyCalculette{
+    /*choix de la police et de l'arrière plan*/
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url('../img/th-4.jpeg');
+    background-size:contain;
+}
+#image{
+
+    background: url('');
+    background-size: auto;
+    
+}
+#bodyModeA{
+    /*choix de la police et de l'arrière plan*/
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url('../img/th.jpeg');
+    background-size: cover;
+
+}
+#pub{
+    background: url('../img/th-5.jpeg');
+    background-size:cover;
+}
+#bodyModeM{
+    /*choix de la police et de l'arrière plan*/
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url('../img/background.jpg');
+    background-size:cover;
+
+}
+#ecran{
+    padding: 40.8px;
+    margin-bottom: -47px;   
+}
+#touches{
+    padding: 2px;
+    margin: 20px;
+}
+
+#container{
+
+    font-size: 20px;
+    margin: 128px auto;
+    width: 1000px;
+}
+h1{
+    text-align: center;
+    color: black;
+    margin-bottom: 32px;
+}
+#calculette,#number{
+    /* arrondissement des bord (esthetique)*/
+    border-radius: 6px;
+}
+
+#calculette{
+    /* coloration du container de notre calculettte */
+    margin: 0 auto;
+    background-color: #416d69;
+    border: 1px solid #3D3D3D;
+    width: 373px;
+    text-shadow: 0 7px 10px black;
+    height: 453px;
+}
+#nbreDeChance{
+    margin: 0 auto;
+    width: 373px;
+    text-shadow: 0 7px 10px black;
+}
+#premiereChance,#deuxiemeChance,#troisiemeChance{
+    margin-left: 12px;
+    cursor: default;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 20px;
+    text-shadow: 0 -1px 1px #000;
+    font-weight: bold;
+    display: inline-block;
+    background: rgb(255, 255, 255) 100%;
+    width: 9px;
+    box-shadow: 2px 2px 6px black;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+#header{
+    padding: 10px;
+}
+#calcul,#reponse{
+    padding: 35px;
+    width: 60px;
+    text-align: center;
+    font-size: 21px;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+
+input#number{
+    /* mise en forme de la pseudo fenetre de notre calculatrice*/
+    text-align: right;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 250px;
+    padding: 32px;
+    margin: 4px;
+    margin-bottom: -28px;
+}
+#body{
+    padding: 0 10px;
+}
+.buttons{
+    /* mise en forme , alignement et coloration des touches(buttons) */
+    margin-left: 12px;
+    cursor: default;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 20px;
+    text-shadow: 0 -1px 1px #000;
+    font-weight: bold;
+    display: inline-block;
+    border-top: 1px solid rgb(25, 25, 25);
+    background: linear-gradient(rgb(196, 196, 196) 0%, rgb(255, 255, 255) 100%);
+    width: 50px;
+    box-shadow: 0 2px 6px black;
+    margin-bottom: 10px;
+    border-radius: 6px;
+
+}
+#mode{
+    margin-left: 36%;
+}
+#modeA{
+    width: 100px;
+    background: linear-gradient(rgb(219, 188, 50) 0%, rgb(219, 188, 50) 100%);;
+    font-size: 13px;
+    padding: 17px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0 2px 6px black;
+}
+#modeM{
+    width: 100px;
+    background: linear-gradient(rgb(126, 219, 50) 0%, rgb(126, 219, 50) 100%);;
+    font-size: 13px;
+    padding: 17px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0 2px 6px black;
+}
+
+.buttons:hover{
+    background:linear-gradient(rgb(104, 202, 65) 0%, rgb(59, 243, 105) 100%);
+    border-top: 5px black;
+    text-shadow: 0 -1 1px black;
+
+}
+.buttons:active{
+    box-shadow: none;
+}
